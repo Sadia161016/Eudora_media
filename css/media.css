@@ -1,0 +1,178 @@
+
+@media (max-width:992px) {
+    .desktop_menu{
+        display: block;
+    }
+    .btn_wraper {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn-primary {
+        padding: 5px 20px;
+        font-size: 14px;
+    }
+    .width {
+        margin: 6px;
+        width: 88%;
+    }
+    footer ul li {
+        margin: 10px;
+    }
+}
+@media  (max-width:768px) {
+    .desktop_menu{
+        display: none;
+    }
+    .Mobile_menu{
+        display: block;
+    }
+    .ITEM h1::before{
+        display: none;
+    }
+    .ITEM h1::after{
+        display: none;
+    }
+    .btn_wraper {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .width {
+        margin: 4px;
+        width: 93%;
+    }
+    .btn-primary {
+        padding: 10px 35px;
+        font-size: 14px;
+    }
+    
+    .collapse p {
+        font-size: 11px;
+        line-height: 19px;
+        padding: 15px 0px;
+    }
+    .offer {
+        text-align: center; 
+    }
+    .background {
+        height: 250px;
+    }
+    .offer h1 {
+        font-size: 35px;
+    }
+    .subscribe_section h1 {
+        font-size: 35px;
+    }
+    .subscribe_section input {
+        margin: 13px 0px;
+        width: 47%;
+    }
+    footer p {
+        font-size: 13px;
+        padding-bottom: 17px;
+    }
+    .content{
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        display: inline-flex;
+        }
+        footer ul li {
+            padding: 5px;
+        }
+        footer ul {
+            justify-content: space-evenly;
+            margin-right: 25px;
+        }
+        .breakfast_items p {
+            font-size: 9px;
+        }
+
+}
+
+@media  (max-width:575px) {
+    .desktop_menu{
+        display: none;
+    }
+    .Mobile_menu{
+        display: block;
+    }
+    .ITEM h1::before{
+        display: none;
+    }
+    .ITEM h1::after{
+        display: none;
+    }
+    .navbar_color {
+        padding: 10px 0px;
+    }
+    .navbar-toggler{
+        padding: 4px 9px;
+    }
+    .banner h1 {
+        font-size: 35px;
+    }
+    .banner p {
+        font-size: 14px;
+        line-height: 32px;
+    }
+    .btn-learn-more {
+        font-size: 16px;
+        padding: 9px 24px;
+    }
+    .nav-link {
+        margin-top: 5px;
+    }
+    .items h1 {
+        font-size: 30px;
+    }
+    .items p {
+        padding: 25px 0px;
+    }
+    .btn_one {
+        padding: 5px 25px;
+        font-size: 14px;
+    }
+    .btn-primary {
+        padding: 10px 40px;
+        font-size: 12px;
+    }
+    .collapse p {
+        font-size: 11px;
+        line-height: 19px;
+        padding: 15px 0px;
+    }
+    .btn-order {
+        padding: 5px 19px;
+        font-size: 14px;
+    }
+    .width {
+        margin: 2px;
+        width: 95%;
+    }
+    footer ul {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    footer ul li {
+        padding: 10px;
+    }
+    footer p {
+        padding-bottom: 0px;
+    }
+    
+}
+@media (max-width:425px) {
+    .banner p {
+        font-size: 13px;
+        line-height: 32px;
+    }
+    .offer h1 {
+        font-size: 44px;
+    }
+    
+}
